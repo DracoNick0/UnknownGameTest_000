@@ -44,6 +44,7 @@ void LevelManager::SetLevel(templevel newLevel)
 
 void ChapterChoice()
 {
+	templevel Level = LevelManager::GetLevelManager().GetLevel();
 	cout << "Which chapter would you like to go to?" << endl;
 	cout << "Chapter 1: Starter Village" << endl;
 	cout << "Chapter 2: Goblin's Cave" << endl;
@@ -80,6 +81,8 @@ void ChapterChoice()
 						cout << "You have picked level 1." << endl;
 						cout << "Transporting... Please wait." << endl;
 						this_thread::sleep_for(std::chrono::milliseconds(3000));
+						Level.CurrentChapterLevel = 10001;
+
 					}
 					else if (levelchoice == 2)
 					{
@@ -170,4 +173,5 @@ void ChapterChoice()
 			i = 0;
 		}
 	}
+	LevelManager::GetLevelManager().SetLevel(Level);
 }
