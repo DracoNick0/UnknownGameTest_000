@@ -1,0 +1,3 @@
+﻿  UnknownGameTest_000.cpp
+C:\Users\santo\source\repos\UnknownGameTest_000\UnknownGameTest_000\UnknownGameTest_000.cpp(259,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  UnknownGameTest_000.vcxproj -> C:\Users\santo\source\repos\UnknownGameTest_000\Debug\UnknownGameTest_000.exe
