@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AttackSystems.cpp" />
+    <ClCompile Include="Chapters.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="RewardSystem.cpp" />
@@ -159,8 +160,8 @@
     <ClCompile Include="UnknownGameTest_000.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AttackSystem.h" />
     <ClInclude Include="AttackSystems.h" />
+    <ClInclude Include="Chapters.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="RewardSystem.h" />

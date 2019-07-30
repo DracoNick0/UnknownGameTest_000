@@ -9,6 +9,7 @@ using namespace std;
 struct tempenemy
 {
 	bool EnemyisDead = false;
+	int EnemyLv = 0;
 	int EnemyHP = 0;
 	int EnemyArmor = 0;
 	int EnemyHitChance = 0;

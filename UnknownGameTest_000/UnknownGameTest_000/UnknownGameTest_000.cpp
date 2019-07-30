@@ -5,6 +5,7 @@
 #include <thread>
 #include <chrono>
 #include <string>
+#include "Chapters.h"
 #include "Story.h"
 #include "Player.h"
 #include "Enemy.h"
@@ -245,14 +246,8 @@ void CharacterChoice()
 int main()
 {
 	srand(time(NULL));
-	CharacterChoice();
-	Story1(name);
-	PlayerAttackSystem();
-	Story2(name);
-	PlayerAttackSystem();
-	Story3(name);
-	PlayerAttackSystem();
-	Story4(name);
+	ChapterChoice();
+
 
 	return 0;
 }

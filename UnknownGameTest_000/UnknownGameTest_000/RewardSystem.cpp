@@ -8,3 +8,8 @@
 #include "Player.h"
 #include "Enemy.h"
 using namespace std;
+
+void RewardSystem()
+{
+
+}

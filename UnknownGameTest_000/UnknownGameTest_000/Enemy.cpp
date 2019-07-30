@@ -38,6 +38,7 @@ void EnemyManager::SetEnemy(tempenemy newEnemy)
 {
 	if (enemy != nullptr)
 	{
+		enemy->EnemyLv = newEnemy.EnemyLv;
 		enemy->EnemyHP = newEnemy.EnemyHP;
 		enemy->EnemyArmor = newEnemy.EnemyArmor;
 		enemy->EnemyHitChance = newEnemy.EnemyHitChance;
