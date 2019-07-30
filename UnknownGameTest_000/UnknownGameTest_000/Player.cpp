@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <thread>
 #include <chrono>
-#include "Story.h"
 #include "Player.h"
 #include "RewardSystem.h"
 using namespace std;

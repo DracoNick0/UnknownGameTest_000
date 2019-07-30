@@ -6,7 +6,6 @@
 #include <chrono>
 #include <string>
 #include "Chapters.h"
-#include "Story.h"
 #include "Player.h"
 #include "Enemy.h"
 #include "AttackSystems.h"
@@ -248,6 +247,7 @@ int main()
 	srand(time(NULL));
 	ChapterChoice();
 
-
+	templevel Level = LevelManager::GetLevelManager().GetLevel();
+	cout << Level.CurrentChapterLevel << endl;
 	return 0;
 }

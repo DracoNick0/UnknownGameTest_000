@@ -5,7 +5,6 @@
 #include <thread>
 #include <chrono>
 #include "Enemy.h"
-#include "Story.h"
 #include "RewardSystem.h"
 using namespace std;
 string choice2;
